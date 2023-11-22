@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E2021500">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:src="@drawable/illuminati"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/october_crow"
+        android:gravity="center_horizontal"
+        android:text="Retard-Ex"
+        android:textColor="@color/white"
+        android:textSize="170px">
+    </TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/october_crow"
+    android:textColor="@color/white"
+    android:gravity="center_horizontal"
+    android:text="User:"
+    android:textSize="70px"
+    android:layout_marginTop="70px">
+
+</TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120px"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/october_crow"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="Password:"
+        android:textSize="70px"
+        android:layout_marginTop="70px">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120px"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/botonojo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ojocerrado"
+        android:gravity="center_horizontal"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck">
+
+    </ImageButton>
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
